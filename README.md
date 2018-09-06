@@ -1,2 +1,2 @@
-# aft-site-prototype
+# aft-prototype
 Prototype Front-End (for now) for a new forum
