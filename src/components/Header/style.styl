@@ -1,0 +1,42 @@
+@import "../../stylus/variables/fonts.styl"
+
+.HeaderContainer
+	position sticky
+	top 0
+	left 0
+	
+	display flex
+	
+	flex 0 0 auto
+	
+	background-color #070707
+
+	border-bottom 2px solid #efefef
+	
+	transition transform 0.25s
+	
+	h1
+		flex 1 0 auto
+
+		padding 48px 16px
+		
+		font-family chela-one-font
+		font-weight 400
+		
+		text-align center
+
+.Header
+	position relative
+	
+	display flex
+	
+	opacity 1
+	
+	transition opacity 0.25s
+
+.closed
+	transform translateY(-100%)
+	
+	.Header
+		opacity 0
+		
